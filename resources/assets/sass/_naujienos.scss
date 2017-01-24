@@ -1,0 +1,137 @@
+section#news {
+	flex: 1;
+
+	.news-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between; 
+
+		figure {
+			flex-basis: 49%;
+			margin: 0 0 4em 0;
+
+			h2 {
+				color: white;
+				font-weight: 400;
+				padding: 0;
+				font-size: 1.1em;
+			}
+
+			p {
+				color: #616862; 
+				font-size: .9em;
+				line-height: 1.8;
+			}
+
+			figcaption {
+				margin-left: 1em;
+				margin-bottom: 2.5em;
+			}
+		}
+
+		.show-more {
+			margin-left: 1em;
+		}
+	}
+}
+
+.show-more {
+	color: white;
+	background: black;
+	padding: 5px 30px;
+	outline: none;
+	border: none;
+	font-size: .8em;
+	transition: all 1s ease-in-out;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+
+	&:hover {
+		color: rgba(255,255,255,.5);
+		box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	}
+
+	@media screen and (max-width: 768px) {
+		display:inline-block;
+		width: 100%;
+		text-align: center;
+		padding:12px;
+	}
+}
+
+.news-articles{
+	display:flex;
+	flex-wrap:wrap;
+
+	@media screen and (max-width: 768px) {
+		display: block;
+	}
+}
+.news-articles figure{
+	flex-basis:31%;
+	margin: 10px;
+    padding: 5px;
+
+    @media screen and (max-width: 768px) {
+	    width: 100%;
+	}
+
+	@media screen and (min-width: 769px) and (max-width: 920px) {
+	    flex-basis: 100%;
+	}
+
+	@media screen and (min-width: 920px) and (max-width:1300px) {
+	    flex-basis: 45%;
+	}
+
+}
+
+.news-header{
+	width:100%;
+	display:block;
+	position:relative;
+}
+
+.news-header .news-title{
+	color:#f9f9f9;
+	float:left;
+	font-size:22px;
+}
+.news-header .news-date{
+	color:#f9f9f9;
+	float:right;
+}
+.clearfix{
+	clear:both;
+}
+.news-figure{
+	color:#444;
+}
+.news-figure img{
+	height: 340px;
+    object-fit: cover;
+}
+
+.pagination{
+	list-style:none;
+	display: flex;
+	justify-content: center;
+	// /background-color: transparent;
+}
+
+.pagination li{
+	padding: 1em;
+	border: 1px solid #333;
+	background-color: #222;
+	color: #fff;
+}
+.pagination li a{
+	color:#666;
+}
+.pagination li span{
+	color:#333;
+}
+
+ .article-excerpt{
+    color: #b8b8b8 !important;
+ 
+ }

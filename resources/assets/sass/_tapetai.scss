@@ -1,0 +1,84 @@
+.tapet-slider{
+	flex-basis:78%;
+}
+
+.button{
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .flexslider{
+    height: 43vw;
+    overflow: hidden;
+
+     @media screen and (max-width: 768px) {
+            height: 70vw;
+            overflow: hidden;
+
+      }
+      @media (min-width: 769px) and (max-width: 1500px) {
+            height: 40vw;
+            overflow: hidden;
+
+      }
+  }
+
+ // .flex-viewport{
+    // width: 100%;
+    // height: 800px !important;
+    // max-height: 800px !important;
+
+    // @media screen and (max-width: 768px) {
+    //         height: 350px !important;
+    //         max-height: 350px !important;
+    //   }
+    //   @media (min-width: 769px) and (max-width: 1500px) {
+    //         height: 450px !important;
+    //         max-height: 450px !important;
+    //   }
+
+    	 
+  //}
+
+  .flexslider .slides img{
+    object-fit: cover !important;
+  }
+
+  .new-image .slides li img{
+    height: 800px;
+    object-fit: cover;
+
+      @media screen and (max-width: 768px) {
+            height: 350px !important;
+            max-height: 350px !important;
+      }
+      @media (min-width: 769px) and (max-width: 1500px) {
+            height: 600px !important;
+            max-height: 600px !important;
+      }
+  }
+
+	.parketlentes ul li{
+	padding: 0 !important;
+	margin: 0 !important;
+  }
+
+
+  .parketlentes{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+
+  .no-elements{
+        text-align: center;
+        padding: 1em;
+    }
+  .manufacturer_url{
+    color: #f9f9f9;
+  }
+
+  .manufacturer_url:hover{
+    text-decoration: underline;
+  }

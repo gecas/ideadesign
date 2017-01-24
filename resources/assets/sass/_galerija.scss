@@ -1,0 +1,42 @@
+section#gallery {
+	.gallery-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		flex: 1;
+		// justify-content: space-between;
+
+		.gallery-item {
+			flex-basis: 25%;
+			height: 300px;
+			overflow: hidden;
+
+			a {
+
+				&:focus {
+					outline: none;
+				}
+
+				// img {
+				// 	height: 100%;
+				// 	max-width: initial;
+				// 	margin-left: -50%;
+				// 	transform: translateX(20%);
+				// }
+			}
+
+			@media screen and (max-width: 900px) {
+				display: block;
+			    width: 100%;
+			 }
+
+			 @media screen and (min-width: 900px) and (max-width: 1100px) {
+				flex-basis: 33%;
+			 }
+		}
+	}
+}
+
+#colorbox {
+	outline: none;
+}
+

@@ -1,0 +1,107 @@
+doctype
+html
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		title Ideadesign
+		meta(name='description', content='Esprendimai')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css')
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
+		link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,latin-ext' rel='stylesheet' type='text/css')
+		link(rel='stylesheet', href='./css/custom.css')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js')
+		script(src='scripts/script.js')
+	body#index
+		main
+			.col-2
+				ul.navbar
+					li(style="background-image: url('./assets/zemelapis.png');").toggle-1
+						a(href="./kontaktai.html" data-toggle="1").toggle
+						.mobile-text Kontaktai
+						.close
+							i.fa.fa-times
+				.footer
+				.nav-text
+					.info.item-1(data-id="1")
+						span ko
+						| ntaktai
+			.col-1
+				header
+					.logo-wrapper
+						.logo
+							img(src="http://ideadesign.alcod.net/images/idealogo.png")
+						.burger-menu
+							.burger
+					nav
+						ul
+							li
+								a(href="./naujiena.html" data-toggle="3").toggle Tapetai
+									.hover
+							li
+								a(href="./naujiena.html" data-toggle="4").toggle Audiniai
+									.hover
+							li
+								a(href="./naujiena.html" data-toggle="5").toggle Parketlentės
+									.hover
+							li
+								a(href="./naujiena.html" data-toggle="6").toggle Aksesuarai
+									.hover
+							li
+								a(href="./naujienos.html" data-toggle="2").toggle Naujienos
+									.hover
+							li
+								a(href="./kontaktai.html" data-toggle="1").toggle Kontaktai
+									.hover
+					.nav-footer
+						a(href="#")
+							i.fa.fa-facebook-square
+						a(href="#")
+							i.fa.fa-envelope
+						a(href="#")
+							i.fa.fa-instagram
+			.col-5
+				ul.navbar.navbar-5
+					li(style="background-image: url('/assets/naujienos.jpg');").toggle-2
+						a(href="./naujienos.html" data-toggle="2").toggle
+						.mobile-text Naujienos
+						.close
+							i.fa.fa-times
+					li(style="background-image: url('/assets/Tapetai.jpg');").toggle-3
+						a(href="./naujienos.html" data-toggle="3").toggle
+						.mobile-text Tapetai
+						.close
+							i.fa.fa-times
+					li(style="background-image: url('/assets/Audiniai.jpg');").toggle-4
+						a(href="./naujienos.html" data-toggle="4").toggle
+						.mobile-text Audiniai
+						.close
+							i.fa.fa-times
+					li(style="background-image: url('/assets/parketlentes.jpg');").toggle-5
+						a(href="./naujienos.html" data-toggle="5").toggle
+						.mobile-text Parketlentės
+						.close
+							i.fa.fa-times
+					li(style="background-image: url('/assets/Aksesuarai.jpg');").toggle-6
+						a(href="./naujienos.html" data-toggle="6").toggle
+						.mobile-text Aksesuarai
+						.close
+							i.fa.fa-times
+				.footer
+					.footer-text ideadesign.lt (c) 2016 | Privatumo politika
+				.nav-text
+					.info.item-2(data-id="2")
+						span na
+						| ujienos
+					.info.item-3(data-id="3")
+						span ta
+						| petai
+					.info.item-4(data-id="4")
+						span au
+						| diniai
+					.info.item-5(data-id="5")
+						span pa
+						| rketlentes
+					.info.item-6(data-id="6")
+						span ak
+						| sesurarai

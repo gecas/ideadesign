@@ -1,0 +1,86 @@
+doctype
+html
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		title Ideadesign
+		meta(name='description', content='Esprendimai')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css')
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
+		link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,latin-ext' rel='stylesheet' type='text/css')
+		link(rel='stylesheet', href='./css/custom.css')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js')
+		script(src='scripts/script.js')
+	body#inner
+		header
+			.logo
+				img(src="http://ideadesign.alcod.net/images/idealogo.png")
+			nav
+				ul
+					li
+						a(href="./") Pradinis
+							.hover
+					li.dropdown
+						a(href="./naujiena.html") Tapetai
+							.hover
+						ul
+							li
+								a(href="#") Tapetas 1
+							li
+								a(href="#") Tapetas 2
+							li
+								a(href="#") Tapetas 3
+							li
+								a(href="#") Tapetas 4
+							li
+								a(href="#") Tapetas 5
+					li
+						a(href="./naujiena.html") Audiniai
+							.hover
+					li
+						a(href="./naujiena.html") Parketlentės
+							.hover
+					li
+						a(href="./naujiena.html") Aksesuarai
+							.hover
+					li
+						a(href="./naujienos.html") Naujienos
+							.hover
+					li
+						a(href="./kontaktai.html") Kontaktai
+							.hover
+		main
+			section#contacts
+				h1 Kontaktai
+				.map-info
+					.map
+						img(src="./assets/map.jpg")
+					.map-meta
+						.map-meta-row
+							i.fa.fa-map-marker
+							.meta-info
+								.meta-title Adresas
+								.meta-text Mirpur New Bazar Road, Block C, Uttara, Dhaka-1210
+						.map-meta-row
+							i.fa.fa-phone
+							.meta-info
+								.meta-title Adresas
+								.meta-text Mirpur New Bazar Road, Block C, Uttara, Dhaka-1210
+						.map-meta-row
+							i.fa.fa-envelope-o
+							.meta-info
+								.meta-title Adresas
+								.meta-text Mirpur New Bazar Road, Block C, Uttara, Dhaka-1210
+				.form
+					form
+						.form-row
+							input(type="text" placeholder="Jūsų vardas")
+							input(type="email" placeholder="El. paštas")
+							input(type="text" placeholder="Tema")
+						.form-row
+							textarea(placeholder="Žinutė")
+						.form-row
+							input(type="submit" value="Siųsti")
+			footer UAB "STILIAUS MEDIS" +370 600 00000 
+				a(href="mailto: info@ideadesign.lt") info@ideadesign.lt
